@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { Input, PageHeader, Typography } from 'antd';
+import { Input, PageHeader } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import Notification from '../../components/Notification';
-import config from '../../config';
 import ProvincesList from '../../components/ProvinceList';
+import config from '../../config';
 
 const Provinces: React.FC = () => {
   let navigate = useNavigate();

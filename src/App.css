@@ -1,5 +1,5 @@
 .container {
-  padding: 24px;
+  padding: 12px 24px;
 }
 
 .text-center {
@@ -27,6 +27,7 @@
   padding-left: 16px;
   padding-right: 6px;
   cursor: pointer;
+  border-bottom: 1px solid #f1f1f1 !important;
 }
 
 .list-container .ant-list-item:hover {

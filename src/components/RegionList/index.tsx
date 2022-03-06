@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { Typography, List, Button } from 'antd';
-import { RightOutlined, SearchOutlined } from '@ant-design/icons';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import { Typography, List, Button } from 'antd';
+import { RightOutlined } from '@ant-design/icons';
 
 interface RegionListProps {
   loadingList: boolean;

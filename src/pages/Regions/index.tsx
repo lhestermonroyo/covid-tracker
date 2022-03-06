@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Typography, List, Button, Input } from 'antd';
+import { PageHeader, Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import Notification from '../../components/Notification';
 import RegionList from '../../components/RegionList';
@@ -65,6 +65,7 @@ const Regions: React.FC = () => {
 
   return (
     <React.Fragment>
+      <PageHeader className="app-subheader" title="Regions" />
       <div className="container">
         <Input
           size="large"
