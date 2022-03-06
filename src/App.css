@@ -1,38 +1,35 @@
-.App {
+.container {
+  padding: 24px;
+}
+
+.text-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-left {
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-right {
+  text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* screen styles */
+.app-header.ant-page-header {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-.App-link {
-  color: #61dafb;
+.app-subheader.ant-page-header {
+  padding: 12px 24px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-container .ant-list-item {
+  padding-left: 16px;
+  padding-right: 6px;
+  cursor: pointer;
+}
+
+.list-container .ant-list-item:hover {
+  background: #f9f9f9;
+  transition: all 0.2s ease-in-out;
 }
