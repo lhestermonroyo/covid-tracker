@@ -12,7 +12,6 @@ interface ReportInterface {
   last_update: valueType;
   recovered: valueType;
   recovered_diff: valueType;
-  region: [];
 }
 
 interface ReportsInterface {

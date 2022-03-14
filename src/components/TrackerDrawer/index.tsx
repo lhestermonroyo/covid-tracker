@@ -114,6 +114,7 @@ const TrackerDrawer: React.FC<TrackerDrawerInterface> = (props) => {
         value={moment(date, 'YYYY-MM-DD')}
         format={'YYYY-MM-DD'}
         style={{ width: '100%' }}
+        size="large"
         onChange={handleDate}
         disabledDate={(current) => {
           return current.isAfter(fiveDaysAgo);
@@ -153,6 +154,7 @@ const TrackerDrawer: React.FC<TrackerDrawerInterface> = (props) => {
                 />
                 {diffFormat(item.deaths_diff)}
               </Col>
+              <Divider />
               <Col lg={8} md={8}>
                 <Statistic
                   title="Recovered"
