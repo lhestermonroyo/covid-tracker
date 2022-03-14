@@ -1,15 +1,17 @@
+import { valueType } from 'antd/lib/statistic/utils';
+
 interface ReportInterface {
-  active: Number;
-  active_diff: Number;
-  confirmed: Number;
-  confirmed_diff: Number;
-  date: String;
-  deaths: Number;
-  deaths_diff: Number;
-  fatality_rate: Number;
-  last_updated: String;
-  recovered: Number;
-  recovered_diff: Number;
+  active: valueType;
+  active_diff: valueType;
+  confirmed: valueType;
+  confirmed_diff: valueType;
+  date: valueType;
+  deaths: valueType;
+  deaths_diff: valueType;
+  fatality_rate: valueType;
+  last_update: valueType;
+  recovered: valueType;
+  recovered_diff: valueType;
   region: [];
 }
 
