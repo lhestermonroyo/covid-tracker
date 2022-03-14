@@ -20,6 +20,8 @@ const Header = () => {
           </Button>
         </Link>,
         <Button
+          href="https://github.com/lhestermonroyo/covid-tracker"
+          target="_blank"
           type="link"
           size="large"
           shape="circle"
